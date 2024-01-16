@@ -1,4 +1,4 @@
-name: Build
+name: Eafholmz v1 overlayfs kernel
 
 on: [push]
 
@@ -13,7 +13,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        model: [ "N976N" ]
+        model: [ "N976B" ]
 
     steps:
       - uses: actions/checkout@v3
